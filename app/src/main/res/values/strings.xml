@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Assignment5_2</string>
+    <string name="loginByEmail">Enter Email :</string>
+    <string name="login_password">Enter password</string>
+    <string name="login">login</string>
+    <string name="password_hint">Password</string>
+    <string name="show_hide_pwd">view</string>
+    <string name="email_hint">Email</string>
+    <string name="register">Register</string>
+    <string name="act_register_user_name">User Name</string>
+    <string name="act_register_contact_number">Contact Number</string>
+    <string name="act_register_email">E-mail</string>
+    <string name="act_register_address">Address</string>
+    <string name="act_register_radio_male">Male</string>
+    <string name="act_register_radio_female">Female</string>
+    <string name="act_register_hobbies">Enter your Hobbies</string>
+    <string name="act_register_dob">Select Date of Birth</string>
+    <string name="act_register_enter_percentage">Enter percentage</string>
+    <string name="act_register_enter_your_password">Enter your Password</string>
+    <string name="act_register_confirm_password">Confirm Password</string>
+    <string name="logout">Logout</string>
+    <string name="educational_details">Educational Details</string>
+
+
+<!--    -->
+    <string name="enter_email">Please enter your Email</string>
+    <string name="enter_password">Please enter your Password</string>
+    <string name="loggedin">You are logged in</string>
+    <string name="email_required">Email is required</string>
+    <string name="password_required">Password is required</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="user_doesnt_exist">User does not exists or is no longer valid. Please register again</string>
+    <string name="invalid_credential">Invalid credential, Kindly check and re-enter...</string>
+    <string name="email_not_verified">Email is not verified</string>
+    <string name="email_verification_required">Email verification is required. Verify your email first</string>
+    <string name="already_loggedin">Already logged in</string>
+    <string name="can_login">You can login now</string>
+    <string name="enter_name">Please enter your full name</string>
+    <string name="register_from_here">you can Register from here</string>
+    <string name="full_name_required">Full name is required</string>
+    <string name="pls_enter_number">Please enter your contact number</string>
+    <string name="number_is_required">Contact number is required</string>
+    <string name="reenter_number">Please re-enter your mobile no.</string>
+    <string name="number_should_be_10">Mobile number should be of 10 digits</string>
+    <string name="reenter_email">Please re-enter your email id</string>
+    <string name="valid_email_required">Valid Email id is required</string>
+    <string name="enter_address">Please enter your Address</string>
+    <string name="address_required">Address is required</string>
+    <string name="enter_hobbies">Please enter your hobbies</string>
+    <string name="hobbies_required">Hobbies are required</string>
+    <string name="enter_dob">Please enter your date of birth</string>
+    <string name="dob_required">Date of birth are required</string>
+    <string name="pls_enter_password">Please enter your password</string>
+    <string name="pls_confirm_password">Please confirm your password</string>
+    <string name="confirm_password_required">Password Confirmation is required</string>
+    <string name="enter_same_password">Please enter same Password</string>
+    <string name="select_gender">Please select gender</string>
+    <string name="gender_required">Gender is required</string>
+    <string name="pls_select_country">Please select country</string>
+    <string name="selected_gender">"Selected Gender : "</string>
+    <string name="registration_successful">User registered Successfully</string>
+    <string name="registration_failed">Registration Failed... Please try again...</string>
+    <string name="weak_password">Your password is weak</string>
+    <string name="email_already_in_use">Your email is invalid or already in use</string>
+    <string name="existing_email">User is already registered with this email</string>
+    <string name="signedOut">UserSigned out</string>
+    <string name="user_signed_out">UserSigned out</string>
+    <string name="user_details_unavailable">Something went wrong! User\'s details are not available at the moment</string>
+
+    <string-array name="countries">
+
+        <item>India</item>
+        <item>USA</item>
+        <item>Canada</item>
+        <item>Australia</item>
+        <item>New zealand</item>
+        <item>Germany</item>
+
+    </string-array>
+
+    <string-array name="schoolArray">
+        <item>SSC/HSC</item>
+        <item>SSC</item>
+        <item>HSC</item>
+    </string-array>
+
+    <string-array name="collegeArray">
+        <item>B.CA/B.COM</item>
+        <item>B.CA</item>
+        <item>B.COM</item>
+    </string-array>
+</resources>

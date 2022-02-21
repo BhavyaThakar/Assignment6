@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/profileIv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_outline_supervised_user_circle_24" />
+
+
+            <ImageView
+                android:id="@+id/phoneIv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+
+                app:layout_constraintTop_toBottomOf="@id/profileIv"
+                app:srcCompat="@drawable/ic_baseline_phone_24" />
+
+
+            <ImageView
+                android:id="@+id/mailIv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/phoneIv"
+                app:srcCompat="@drawable/ic_baseline_email_24" />
+
+
+            <ImageView
+                android:id="@+id/countryIv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mailIv"
+                app:srcCompat="@drawable/ic_baseline_my_location_24" />
+
+
+            <ImageView
+                android:id="@+id/addressIv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="64dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/countryIv"
+                app:srcCompat="@drawable/ic_baseline_location_city_24" />
+
+
+            <ImageView
+                android:id="@+id/genderIv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="100dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/addressIv"
+                app:srcCompat="@drawable/ic_baseline_wc_24" />
+
+            <ImageView
+                android:id="@+id/dateOfBIv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="66dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/genderIv"
+                app:srcCompat="@drawable/ic_baseline_date_range_24" />
+
+            <ImageView
+                android:id="@+id/hobbiesIv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="72dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dateOfBIv"
+                app:srcCompat="@drawable/ic_baseline_golf_course_24" />
+
+            <EditText
+                android:id="@+id/nameEt"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:ems="10"
+                android:hint="@string/act_register_user_name"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/profileIv"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TouchTargetSizeCheck"
+                android:importantForAutofill="no" />
+
+            <Spinner
+                android:id="@+id/countriesNames"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+                android:popupBackground="#FFF1B212"
+                android:backgroundTint="#FFF1B212"
+                android:entries="@array/countries"
+                android:background="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/countryIv"
+                app:layout_constraintTop_toBottomOf="@+id/mailEt"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/phoneEt"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+                android:ems="10"
+                android:hint="@string/act_register_contact_number"
+                android:inputType="phone"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/phoneIv"
+                app:layout_constraintTop_toBottomOf="@+id/nameEt"
+                tools:ignore="TouchTargetSizeCheck"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/mailEt"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+                android:ems="10"
+                android:hint="@string/act_register_email"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/mailIv"
+                app:layout_constraintTop_toBottomOf="@+id/phoneEt"
+                tools:ignore="TouchTargetSizeCheck"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/addressEt"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/act_register_address"
+                android:inputType="textMultiLine|textPostalAddress"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/addressIv"
+                app:layout_constraintTop_toBottomOf="@+id/countriesNames"
+                android:importantForAutofill="no" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/genderIv"
+                app:layout_constraintTop_toBottomOf="@+id/addressEt">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/act_register_radio_male"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/act_register_radio_female"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/hobeyEt"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/act_register_hobbies"
+                android:inputType="textMultiLine"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/hobbiesIv"
+                app:layout_constraintTop_toBottomOf="@+id/dobTv"
+                android:importantForAutofill="no" />
+
+
+            <TextView
+                android:id="@+id/dobTv"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/act_register_dob"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.525"
+                app:layout_constraintStart_toEndOf="@+id/dateOfBIv"
+                app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/schoolLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hobeyEt">
+
+                <ImageView
+                    android:id="@+id/schoolIv1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_baseline_account_balance_24" />
+
+                <Spinner
+                    android:id="@+id/schoolSpinner1"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="16dp"
+                    android:entries="@array/schoolArray"
+                    android:layout_marginEnd="16dp"
+                    android:popupBackground="#FFF1B212"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:backgroundTint="#FFF1B212"
+                    android:elevation="0dp"
+                    android:background="@color/black"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@id/schoolIv1"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </Spinner>
+
+                <EditText
+                    android:id="@+id/percentage1"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:hint="@string/act_register_enter_percentage"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/schoolSpinner1"
+                    app:layout_constraintStart_toStartOf="@+id/schoolSpinner1"
+                    app:layout_constraintTop_toBottomOf="@+id/schoolSpinner1"
+                    android:importantForAutofill="no" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/schoolLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/schoolLayout1"
+                app:layout_constraintVertical_bias="0.0"
+                tools:layout_editor_absoluteX="0dp">
+
+                <ImageView
+                    android:id="@+id/schoolIv2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_baseline_account_balance_24" />
+
+                <Spinner
+                    android:id="@+id/schoolSpinner2"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:popupBackground="#FFF1B212"
+                    android:backgroundTint="#FFF1B212"
+                    android:entries="@array/schoolArray"
+                    android:background="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@id/schoolIv2"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </Spinner>
+
+                <EditText
+                    android:id="@+id/percentage2"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:hint="@string/act_register_enter_percentage"
+                    android:inputType="numberDecimal"
+
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/schoolSpinner2"
+                    app:layout_constraintStart_toStartOf="@+id/schoolSpinner2"
+                    app:layout_constraintTop_toBottomOf="@+id/schoolSpinner2"
+                    android:importantForAutofill="no" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/collegeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/schoolLayout2">
+
+                <ImageView
+                    android:id="@+id/collegeIv2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_baseline_school_24"
+                    tools:ignore="ContentDescription" />
+
+                <Spinner
+                    android:id="@+id/collegeSpinner2"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="4dp"
+                    android:popupBackground="#FFF1B212"
+                    android:backgroundTint="#FFF1B212"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/black"
+                    android:entries="@array/collegeArray"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/collegeIv2"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </Spinner>
+
+                <EditText
+                    android:id="@+id/collegePercentage2"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:hint="@string/act_register_enter_percentage"
+                    android:inputType="numberDecimal"
+
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/collegeSpinner2"
+                    app:layout_constraintStart_toStartOf="@+id/collegeSpinner2"
+                    app:layout_constraintTop_toBottomOf="@+id/collegeSpinner2"
+                    android:importantForAutofill="no" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/passwordLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/collegeLayout2">
+
+                <ImageView
+                    android:id="@+id/passwordIv"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/passwordEt"
+                    app:srcCompat="@drawable/ic_baseline_lock_24"
+                    tools:ignore="ContentDescription" />
+
+                <EditText
+                    android:id="@+id/passwordEt"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:hint="@string/act_register_enter_your_password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/passwordIv"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:importantForAutofill="no">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/confirmPassword"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:hint="@string/act_register_confirm_password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/passwordEt"
+                    app:layout_constraintStart_toStartOf="@+id/passwordEt"
+                    app:layout_constraintTop_toBottomOf="@+id/passwordEt"
+                    android:importantForAutofill="no" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Button
+                android:id="@+id/button_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="70dp"
+                android:text="@string/register"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:cornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/passwordLayout" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

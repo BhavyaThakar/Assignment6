@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">असाइनमेंट5_2</string>
+    <string name="loginByEmail">ईमेल दर्ज करें :</string>
+    <string name="login_password">पास वर्ड दर्ज करें</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="password_hint">कुंजिका</string>
+    <string name="show_hide_pwd">दृश्य</string>
+    <string name="email_hint">ईमेल</string>
+    <string name="register">रजिस्टर करें</string>
+    <string name="act_register_user_name">उपयोगकर्ता नाम</string>
+    <string name="act_register_contact_number">संपर्क संख्या</string>
+    <string name="act_register_email">ईमेल</string>
+    <string name="act_register_address">पता</string>
+    <string name="act_register_radio_male">पुरुष</string>
+    <string name="act_register_radio_female">महिला</string>
+    <string name="act_register_hobbies">अपने शौक दर्ज करें</string>
+    <string name="act_register_dob">जन्म तिथि चुनें</string>
+    <string name="act_register_enter_percentage">प्रतिशत दर्ज करें</string>
+    <string name="act_register_enter_your_password">अपना पासवर्ड डालें</string>
+    <string name="act_register_confirm_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="educational_details">शैक्षिक विवरण</string>
+
+    <string name="enter_email">अपना ईमेल दर्ज करें</string>
+    <string name="enter_password">अपना पासवर्ड दर्ज करें</string>
+    <string name="loggedin">आप लोग्ड इन हो चुके हैं</string>
+    <string name="email_required">ईमेल की जरूरत है</string>
+    <string name="password_required">पासवर्ड की आवश्यकता है</string>
+    <string name="something_went_wrong">कुछ गलत हो गया</string>
+    <string name="user_doesnt_exist">उपयोगकर्ता मौजूद नहीं है या अब मान्य नहीं है। कृपया फिर से पंजीकरण करें</string>
+    <string name="invalid_credential">अमान्य क्रेडेंशियल, कृपया जांचें और पुनः दर्ज करें...</string>
+    <string name="email_not_verified">ईमेल की पुष्टि नहीं हुई</string>
+    <string name="email_verification_required">ईमेल सत्यापन आवश्यक है। पहले अपना ईमेल सत्यापित करें</string>
+    <string name="already_loggedin">पहले से ही लॉगिन है</string>
+    <string name="can_login">आप अभी लॉगिन कर सकते हैं</string>
+    <string name="enter_name">कृपया आपका पूरा नाम प्रविष्ट कीजिए</string>
+    <string name="register_from_here">आप यहां से रजिस्टर कर सकते हैं</string>
+    <string name="full_name_required">पूरा नाम आवश्यक है</string>
+    <string name="pls_enter_number">कृपया अपना संपर्क नंबर दर्ज करें</string>
+    <string name="number_is_required">संपर्क नंबर आवश्यक है</string>
+    <string name="reenter_number">कृपया अपना मोबाइल नंबर दोबारा दर्ज करें।</string>
+    <string name="number_should_be_10">मोबाइल नंबर 10 अंको का होना चाहिए</string>
+    <string name="reenter_email">कृपया अपनी ईमेल आईडी पुनः दर्ज करें</string>
+    <string name="valid_email_required">वैध ईमेल आईडी आवश्यक है</string>
+    <string name="enter_address">कृपया अपना पता दर्ज करें</string>
+    <string name="address_required">पता आवश्यक है</string>
+    <string name="enter_hobbies">कृपया अपने शौक दर्ज करें</string>
+    <string name="hobbies_required">शौक जरूरी हैं</string>
+    <string name="enter_dob">कृपया अपनी जन्मतिथि भरे</string>
+    <string name="dob_required">जन्म तिथि आवश्यक है</string>
+    <string name="pls_enter_password">अपना पासवर्ड दर्ज करें</string>
+    <string name="pls_confirm_password">कृपया अपने पासवर्ड की पुष्टि करें</string>
+    <string name="confirm_password_required">पासवर्ड पुष्टि की आवश्यकता है</string>
+    <string name="enter_same_password">कृपया वही पासवर्ड दर्ज करें</string>
+    <string name="select_gender">कृपया लिंग चुनें</string>
+    <string name="gender_required">लिंग आवश्यक है</string>
+    <string name="pls_select_country">कृपया देश चुनें</string>
+    <string name="selected_gender">"चयनित लिंग:"</string>
+    <string name="registration_successful">उपयोगकर्ता सफलतापूर्वक पंजीकृत हो गया</string>
+    <string name="registration_failed">पंजीकरण विफल... कृपया पुन: प्रयास करें...</string>
+    <string name="weak_password">आपका पासवर्ड कमजोर है</string>
+    <string name="email_already_in_use">आपका ईमेल अमान्य है या पहले से उपयोग में है</string>
+    <string name="existing_email">उपयोगकर्ता पहले से ही इस ईमेल के साथ पंजीकृत है</string>
+    <string name="signedOut">उपयोगकर्ता साइन आउट</string>
+    <string name="user_signed_out">उपयोगकर्ता साइन आउट</string>
+    <string name="user_details_unavailable">कुछ गलत हो गया! उपयोगकर्ता का विवरण इस समय उपलब्ध नहीं है</string>
+
+    <string-array name="countries">
+
+        <item>इंडिया</item>
+        <item>अमेरीका</item>
+        <item>कनाडा</item>
+        <item>ऑस्ट्रेलिया</item>
+        <item>न्यूज़ीलैंड</item>
+        <item>जर्मनी</item>
+
+    </string-array>
+
+    <string-array name="schoolArray">
+        <item>एसएससी/एचएससी</item>
+        <item>एसएससी</item>
+        <item>एचएससी</item>
+    </string-array>
+
+    <string-array name="collegeArray">
+        <item>बी.सीए/बी.कॉम</item>
+        <item>बी.सीए</item>
+        <item>बीकॉम</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">સોંપણી 5_2</string>
+    <string name="loginByEmail">ઈમેલ દાખલ કરો:</string>
+    <string name="login_password">પાસવર્ડ દાખલ કરો</string>
+    <string name="login">પ્રવેશ કરો</string>
+    <string name="password_hint">પાસવર્ડ</string>
+    <string name="show_hide_pwd">view</string>
+    <string name="email_hint">ઈમેલ</string>
+    <string name="register">નોંધણી કરો</string>
+    <string name="act_register_user_name">વપરાશકર્તા નામ</string>
+    <string name="act_register_contact_number">સંપર્ક નંબર</string>
+    <string name="act_register_email">ઈમેલ</string>
+    <string name="act_register_address">સરનામું</string>
+    <string name="act_register_radio_male">પુરુષ</string>
+    <string name="act_register_radio_female">સ્ત્રી</string>
+    <string name="act_register_hobbies">તમારા શોખ દાખલ કરો</string>
+    <string name="act_register_dob">જન્મ તારીખ પસંદ કરો</string>
+    <string name="act_register_enter_percentage">ટકાવારી દાખલ કરો</string>
+    <string name="act_register_enter_your_password">પાસવર્ડ દાખલ કરો</string>
+    <string name="act_register_confirm_password">પાસવર્ડની પુષ્ટિ કરો</string>
+    <string name="logout">લૉગ આઉટ</string>
+    <string name="educational_details">શૈક્ષણિક વિગતો</string>
+
+    <string name="enter_email">કૃપા કરીને તમારો ઈમેલ દાખલ કરો</string>
+    <string name="enter_password">મહેરબાની કરીને તમારો પાસવર્ડ નાખો</string>
+    <string name="loggedin">તમે લૉગ ઇન છો</string>
+    <string name="email_required">ઈમેલ આવશ્યક છે</string>
+    <string name="password_required">પાસવર્ડ અનિવાર્ય છે</string>
+    <string name="something_went_wrong">કંઈક ખોટું થયું</string>
+    <string name="user_doesnt_exist">વપરાશકર્તા અસ્તિત્વમાં નથી અથવા હવે માન્ય નથી. કૃપા કરીને ફરીથી નોંધણી કરો</string>
+    <string name="invalid_credential">અમાન્ય ઓળખપત્ર, કૃપા કરીને તપાસો અને ફરીથી દાખલ કરો...</string>
+    <string name="email_not_verified">ઈમેલ ચકાસાયેલ નથી</string>
+    <string name="email_verification_required">ઇમેઇલ ચકાસણી જરૂરી છે. પહેલા તમારું ઈમેલ ચકાસો</string>
+    <string name="already_loggedin">પહેલેથી જ લૉગ ઇન છે</string>
+    <string name="can_login">તમે હવે લોગીન કરી શકો છો</string>
+    <string name="enter_name">કૃપા કરીને તમારું પૂરું નામ દાખલ કરો</string>
+    <string name="register_from_here">તમે અહીંથી નોંધણી કરાવી શકો છો</string>
+    <string name="full_name_required">પૂરું નામ જરૂરી છે</string>
+    <string name="pls_enter_number">કૃપા કરીને તમારો સંપર્ક નંબર દાખલ કરો</string>
+    <string name="number_is_required">સંપર્ક નંબર જરૂરી છે</string>
+    <string name="reenter_number">કૃપા કરીને તમારો મોબાઈલ નંબર ફરીથી દાખલ કરો.</string>
+    <string name="number_should_be_10">મોબાઈલ નંબર 10 અંકોનો હોવો જોઈએ</string>
+    <string name="reenter_email">કૃપા કરીને તમારું ઈમેલ આઈડી ફરીથી દાખલ કરો</string>
+    <string name="valid_email_required">માન્ય ઈમેલ આઈડી જરૂરી છે</string>
+    <string name="enter_address">કૃપા કરીને તમારું સરનામું દાખલ કરો</string>
+    <string name="address_required">સરનામું જરૂરી છે</string>
+    <string name="enter_hobbies">કૃપા કરીને તમારા શોખ દાખલ કરો</string>
+    <string name="hobbies_required">શોખ જરૂરી છે</string>
+    <string name="enter_dob">કૃપા કરીને તમારી જન્મ તારીખ દાખલ કરો</string>
+    <string name="dob_required">જન્મ તારીખ જરૂરી છે</string>
+    <string name="pls_enter_password">મહેરબાની કરીને તમારો પાસવર્ડ નાખો</string>
+    <string name="pls_confirm_password">કૃપા કરીને તમારા પાસવર્ડની પુષ્ટિ કરો</string>
+    <string name="confirm_password_required">પાસવર્ડ કન્ફર્મેશન જરૂરી છે</string>
+    <string name="enter_same_password">કૃપા કરીને સમાન પાસવર્ડ દાખલ કરો</string>
+    <string name="select_gender">કૃપા કરીને લિંગ પસંદ કરો</string>
+    <string name="gender_required">જાતિ જરૂરી છે</string>
+    <string name="pls_select_country">કૃપા કરીને દેશ પસંદ કરો</string>
+    <string name="selected_gender">"પસંદ કરેલ લિંગ :"</string>
+    <string name="registration_successful">વપરાશકર્તા સફળતાપૂર્વક નોંધાયેલ છે</string>
+    <string name="registration_failed">નોંધણી નિષ્ફળ... કૃપા કરીને ફરી પ્રયાસ કરો...</string>
+    <string name="weak_password">તમારો પાસવર્ડ નબળો છે</string>
+    <string name="email_already_in_use">તમારું ઇમેઇલ અમાન્ય છે અથવા પહેલેથી ઉપયોગમાં છે</string>
+    <string name="existing_email">વપરાશકર્તા પહેલેથી જ આ ઇમેઇલ સાથે નોંધાયેલ છે</string>
+    <string name="signedOut">વપરાશકર્તા સાઇન આઉટ થયા</string>
+    <string name="user_signed_out">વપરાશકર્તા સાઇન આઉટ થયા</string>
+    <string name="user_details_unavailable">કંઈક ખોટું થયું! વપરાશકર્તાની વિગતો અત્યારે ઉપલબ્ધ નથી</string>
+
+    <string-array name="countries">
+
+        <item>ભારત</item>
+        <item>યૂુએસએ</item>
+        <item>કેનેડા</item>
+        <item>ઓસ્ટ્રેલિયા</item>
+        <item>ન્યૂઝીલેન્ડ</item>
+        <item>જર્મની</item>
+
+    </string-array>
+
+    <string-array name="schoolArray">
+        <item>એસ.એસ.સી/એચ.એસ.સી</item>
+        <item>એસ.એસ.સી</item>
+        <item>એચ.એસ.સી</item>
+    </string-array>
+
+    <string-array name="collegeArray">
+        <item>બી.સી.એ/બી.કોમ</item>
+        <item>બી.સી.એ</item>
+        <item>બી.કોમ</item>
+    </string-array>
+</resources>
