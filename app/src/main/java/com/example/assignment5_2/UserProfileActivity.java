@@ -87,28 +87,10 @@ public class UserProfileActivity extends AppCompatActivity {
 
     private void checkIfEmailVerified(FirebaseUser firebaseUser) {
         if (!firebaseUser.isEmailVerified()){
-//            showAlertDialog();
         }
     }
 
-//    private void showAlertDialog() {
-//
-//        AlertDialog.Builder builder = new AlertDialog.Builder(UserProfileActivity.this);
-//        builder.setTitle("Email is not verified");
-//        builder.setMessage("Email verification is required. Verify your email first");
-//        builder.setPositiveButton("Continue", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                Intent intent = new Intent(Intent.ACTION_MAIN);
-//                intent.addCategory(Intent.CATEGORY_APP_EMAIL);
-//                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//                startActivity(intent);
-//            }
-//        });
 
-//        AlertDialog alertDialog = builder.create();
-//        alertDialog.show();
-//    }
 
     private void showUserProfile(FirebaseUser firebaseUser) {
         String userId = firebaseUser.getUid();
@@ -180,41 +162,12 @@ public class UserProfileActivity extends AppCompatActivity {
             startActivity(getIntent());
             finish();
         }
-//        else if (id == R.id.menu_update_profile){
-//            Intent intent = new Intent(UserProfileActivity.this, UpdateProfileActivity.class);
-//            startActivity(intent);
-//
-//
-//        }
-//        else if (id == R.id.menu_update_email){
-//            Intent intent = new Intent(UserProfileActivity.this, UpdateEmailActivity.class);
-//            startActivity(intent);
-//
-//
-//        }
-//        else if (id == R.id.menu_change_password){
-//            Intent intent = new Intent(UserProfileActivity.this, ChangePasswordActivity.class);
-//            startActivity(intent);
-//
-//
-//        }
-//        else if (id == R.id.menu_delete_profile){
-//            Intent intent = new Intent(UserProfileActivity.this, DeleteProfileActivity.class);
-//            startActivity(intent);
-//
-//
-//        }
-        else if (id == R.id.menu_logout){
-         authProfile.getInstance().signOut();
-            Toast.makeText(UserProfileActivity.this, getString(R.string.signedOut), Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(UserProfileActivity.this, MainActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-            startActivity(intent);
-            finish();
 
 
 
-        }
+
+
+        
         else {
             Toast.makeText(UserProfileActivity.this, getString(R.string.something_went_wrong), Toast.LENGTH_SHORT).show();
 
